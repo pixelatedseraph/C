@@ -1,4 +1,4 @@
-ynamic 2D Arrays + Prime Manipulation in C
+Dynamic 2D Arrays + Prime Manipulation in C
 
 This project contains two small yet educational C programs demonstrating:
 
