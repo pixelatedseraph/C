@@ -16,13 +16,11 @@
    15.interfacing with asm /registers via pointers
 
  */
-arr[i][j]
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-    // 1 . pointer basics and stuff
-    void
-    pbasics()
+// 1 . pointer basics and stuff
+void pbasics()
 {
     int x = 10;
     void *pi = &x;
@@ -359,7 +357,7 @@ void pheap()
     *heapint = 42;
     printf("%d\n", *heapint);
     free(heapint); // dont forget to free after usage !
-    // now lets do dyanmic struct allocation
+                   // now lets do dyanmic struct allocation
     // refer to dyanmicstruct.c
 
     // now lets do 2d and 3d allocations (extermely wild and nauseating)
@@ -429,12 +427,9 @@ void pheap()
 }
 // 8 function pointers
 
-void pfunctions()
-
-    int main()
+int main()
 {
     // pbasics();
-    //  pcast();
     // parithmetic();
     // ptoarrs();
     // arrofptrs();
